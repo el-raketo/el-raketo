@@ -1,20 +1,14 @@
 {
   "title": "Stackbit Exto Theme",
   "color_scheme": "dark",
-  "accent_color": "pink",
+  "accent_color": "blue",
   "header": {
-    "title": "Exto",
+    "title": "frame ahead",
     "has_nav": true
   },
   "footer": {
-    "content": "&copy; Stackbit-Exto. All rights reserved.",
-    "links": [
-      {
-        "text": "Made with Stackbit",
-        "url": "https://www.stackbit.com",
-        "new_window": true
-      }
-    ],
+    "content": "",
+    "links": [],
     "has_social": true
   }
 }

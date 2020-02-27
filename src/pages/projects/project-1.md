@@ -4,6 +4,11 @@ subtitle: Optional Project Subtitle
 date: '2019-05-10'
 thumb_img_path: images/1_thumb.jpg
 content_img_path: images/1.jpg
+video_embed: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/soGeowHi4kA" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture" allowfullscreen></iframe>
 template: project
 ---
 

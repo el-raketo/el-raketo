@@ -24,6 +24,13 @@ export default class Project extends React.Component {
                     <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.content_img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
                   </div>
                   }
+                  {_.get(this.props, 'pageContext.frontmatter.video_embed') && 
+                  <div className="post-video">
+                    <div dangerouslySetInnerHTML={{
+                      __html: _.get(this.props, 'pageContext.frontmatter.video_embed')
+                      }} />
+                  </div>
+                  }
                   <div className="post-content inner-small">
                     {htmlToReact(_.get(this.props, 'pageContext.html'))}
                   </div>

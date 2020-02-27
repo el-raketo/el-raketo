@@ -858,6 +858,11 @@ collections:
         label: Alternative Featured Image
         required: false
         hint: The image shown in the single project.
+      - widget: string
+        name: video_embed
+        label: Video Embed
+        required: false
+        hint: The video shown in the project page.
       - widget: object
         name: menus
         label: Project Menus

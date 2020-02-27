@@ -1,7 +1,7 @@
 {
   "title": "Stackbit Exto Theme",
   "color_scheme": "dark",
-  "accent_color": "blue",
+  "accent_color": "violet",
   "header": {
     "title": "frame ahead",
     "has_nav": true

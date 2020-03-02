@@ -63,7 +63,10 @@ export default class Header extends React.Component {
                     className="site-navigation"
                     aria-label="Main Navigation"
                   >
-                    <div className="site-nav-inside">
+                    <div
+                      className="site-nav-inside"
+                      style={{ display: "flex" }}
+                    >
                       <button id="menu-close" className="menu-toggle">
                         <span className="screen-reader-text">Open Menu</span>
                         <span className="icon-close" aria-hidden="true" />

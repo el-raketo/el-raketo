@@ -128,6 +128,7 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
                     base: node.fields.base,
                     name: node.fields.name,
                     frontmatter: node.frontmatter,
+                    content_img_path: node.frontmatter.content_img_path && node.frontmatter.content_img_path.replace("images/", ""),
                     html: graphQLNode.html,
                     pages: pages,
                     site: {

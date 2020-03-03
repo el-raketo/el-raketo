@@ -1,16 +1,3 @@
 [build]
 publish = "public"
 command = "./stackbit-build.sh"
-
-[[headers]]
-  for = "/img/*"
-  [headers.values]
-    Cache-Control = "public, s-max-age=0"
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, s-max-age=0"
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, s-max-age=0"

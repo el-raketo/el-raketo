@@ -80,8 +80,8 @@ export const query = graphql`
       nodes {
         relativePath
         childImageSharp {
-          fixed(width: 672) {
-            ...GatsbyImageSharpFixed
+          fixed(width: 672, quality: 90) {
+            ...GatsbyImageSharpFixed_withWebp_tracedSVG
           }
         }
       }
